@@ -1,0 +1,43 @@
+{
+	"name": "leo-unglaub/contao-group-description",
+	"description": "A very Contao CMS extension that allows you to add a description/notes to your groups.",
+	"keywords": [
+		"contao",
+		"group-description",
+		"user",
+		"member",
+		"description"
+	],
+	"type": "contao-module",
+	"license": "LGPL-3.0+",
+	"authors": [
+		{
+			"name": "Leo Unglaub",
+			"email": "leo@unglaub.at",
+			"homepage": "https://leo.unglaub.at",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"email": "leo@leo-unglaub.net",
+		"issues": "https://bitbucket.org/leo-unglaub/contao-group-description/issues",
+		"wiki": "https://www.leo-unglaub.net/software/contao-extensions",
+		"irc": "irc://irc.freenode.org/contao.dev",
+		"source": "https://bitbucket.org/leo-unglaub/contao-group-description/src/"
+	},
+	"require": {
+		"php": ">=5.3",
+		"contao/core": "~3",
+		"contao-community-alliance/composer-installer": "*"
+	},
+	"replace": {
+		"contao-legacy/group-description": "*"
+	},
+	"extra": {
+		"contao": {
+			"sources": {
+				"system/modules/group-description": "system/modules/group-description"
+			}
+		}
+	}
+}
