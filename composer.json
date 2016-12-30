@@ -35,7 +35,7 @@
 	"extra": {
 		"contao": {
 			"sources": {
-				"system/modules/group-description": "system/modules/group-description"
+				"src/system/modules/group-description": "system/modules/group-description"
 			}
 		}
 	}
