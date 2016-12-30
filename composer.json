@@ -1,6 +1,6 @@
 {
 	"name": "leo-unglaub/contao-group-description",
-	"description": "A very small extension for the Contao CMS that allows you to add a description/notes to your groups.",
+	"description": "A very small extension for the Contao CMS that allows you to add a description/notes to your member and user groups.",
 	"keywords": [
 		"contao",
 		"group-description",
